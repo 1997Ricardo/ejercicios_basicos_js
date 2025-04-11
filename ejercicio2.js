@@ -2,9 +2,12 @@ const jedi = {nombre: "Luke Skywalker", edad: 19};
 
 // Tu código para cambiar la edad aquí...
 
-let nombre = "Luke Skywalker";
-let edad = 25;
+jedi.edad = 25;
+console.log(jedi)
 
-const jedi2 = {nombre , edad};
-console.log(jedi2)
+//2. Presentación al estilo Leia Organa:
+const nombre = "Leia";
+const apellido = "Organa";
+const edad = 20;
 
+console.log("Soy " + nombre + " " + apellido + ", tengo " + edad + " años y soy una princesa de Alderaan");
